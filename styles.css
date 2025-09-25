@@ -251,6 +251,13 @@ main {
     margin-bottom: 10px;
 }
 
+.about-image {
+    width : 100%;
+    height: 300px;
+    display: flex;
+    border-radius: 10px;
+}
+
 .image-placeholder {
     width: 100%;
     height: 300px;
@@ -325,9 +332,17 @@ main {
     transform: translateY(-5px);
 }
 
-.project-image .image-placeholder {
+.project-image{
     height: 200px;
+    align-items: center;
+    justify-content: center;
     background: #f0f0f0;
+}
+
+.project-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
 .project-info {
